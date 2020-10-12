@@ -1,0 +1,27 @@
+.Hero{
+  margin-top: 0;
+  background-color: var(--primary-color-light);
+  width: 100%;
+  min-height: 100vh;
+  color: var(--primary-color-light-text);
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 720px){
+  .Hero{
+    background-image:  linear-gradient(rgba(142, 68, 173, 0.7),rgba(142, 68, 173, 0.6)), url(../../Assets/Images/pexels-tirachard-kumtanom-733852.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+.Description{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+pre{
+  white-space: pre-wrap;
+}

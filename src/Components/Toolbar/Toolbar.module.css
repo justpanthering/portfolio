@@ -1,0 +1,44 @@
+.Toolbar{
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-color-dark);
+  color: var(--primary-color-text);
+  height: 50px;
+  min-width: 500px;
+  align-items: center;
+  padding: 0 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.NavIcon{
+  background-color: transparent;
+  border: none;
+  color: var(--pimary-color-text);
+  font-size: 2rem;
+}
+
+.Logo{
+  display: none;
+}
+
+.Navitems{
+  display: none;
+}
+
+@media screen and (min-width: 990px){
+  .Logo{
+    display: block;
+    font-size: 1.5rem;
+  }
+  .NavIcon{
+    display: none;
+  }
+
+  .Navitems{
+    display: flex;
+  }
+}

@@ -1,0 +1,5 @@
+.Projects{
+  background: var(--primary-color-light);
+  min-height: 100vh;
+  color: var(--primary-color-light-text);
+}

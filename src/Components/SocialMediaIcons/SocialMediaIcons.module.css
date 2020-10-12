@@ -1,0 +1,18 @@
+.SocialMedia{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.SocialIcon{
+  /* padding-left: 2rem; */
+  font-size: 1.25rem;
+}
+
+.SocialLink{
+  /* color: #000; */
+  transition: 0.3s linear;
+}
+.SocialLink:hover{
+  color: var(--secondary-color);
+}

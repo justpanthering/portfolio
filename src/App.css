@@ -1,0 +1,36 @@
+/* 
+GLOBAL VARIABLES
+ */
+
+*{
+  padding: 0;
+  margin: 0;
+
+  word-spacing: 0.5rem;
+  letter-spacing: 0.125rem;
+  line-height: 1.525rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  
+  --black: #000000;
+  --white: #fff;
+
+  --primary-color: #8e24aa;
+  --primary-color-text: var(--white);
+  /* --primary-color-light: #c158dc; */
+  --primary-color-light: #8E44AD;
+  --primary-color-light-text: var(--white);
+  /* --primary-color-dark: #5c007a; */
+  --primary-color-dark: #451851;
+  --primary-color-dark-text: var(--white);
+
+  --secondary-color: #ffa000;
+  --secondary-color-text: var(--black);
+  --secondary-color-light: #ffd149;
+  --secondary-color-light-text: var(--black);
+  --secondary-color-dark: #c67100;
+  --secondary-color-dark-text: var(--black);
+}
