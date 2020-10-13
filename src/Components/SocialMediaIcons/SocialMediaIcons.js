@@ -19,6 +19,14 @@ const socialMediaIcons = (props) => {
       <li className={Styles.SocialIcon}>
         <a
           className={linkClasses}
+          href="https://github.com/justpanthering"
+          target="_blank">
+          <i className="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li className={Styles.SocialIcon}>
+        <a
+          className={linkClasses}
           href="https://www.linkedin.com/in/ankit-lakra-a5687a118/"
           target="_blank">
           <i className="fa fa-linkedin" aria-hidden="true"></i>

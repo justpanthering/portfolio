@@ -5,12 +5,10 @@
 }
 
 .SocialIcon{
-  /* padding-left: 2rem; */
   font-size: 1.25rem;
 }
 
 .SocialLink{
-  /* color: #000; */
   transition: 0.3s linear;
 }
 .SocialLink:hover{

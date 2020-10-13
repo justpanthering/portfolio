@@ -11,7 +11,9 @@ const webDevProjects = () => {
     <CardGroup className={Styles.CardGroup}>
       <Card className={Styles.Card}>
         <div className={Styles.CardHeader}>
-          <Card.Img variant="top" src="https://github.com/justpanthering/burger-builder/blob/master/src/assets/images/burger-logo.png?raw=true" />
+          <div className={Styles.ImgContainer}>
+            <Card.Img className={Styles.Img} variant="top" src="https://github.com/justpanthering/burger-builder/blob/master/src/assets/images/burger-logo.png?raw=true" />
+          </div>
           <Card.Body>
             <Card.Title>Burger Builder</Card.Title>
             <Card.Text>
@@ -30,7 +32,9 @@ const webDevProjects = () => {
       </Card>
       <Card className={Styles.Card}>
         <div className={Styles.CardHeader}>
-          <Card.Img variant="top" src="https://github.com/justpanthering/forkify/blob/master/dist/img/logo.png?raw=true" />
+          <div className={Styles.ImgContainer}>
+            <Card.Img className={Styles.Img} variant="top" src="https://github.com/justpanthering/forkify/blob/master/dist/img/logo.png?raw=true" />
+          </div>
           <Card.Body>
             <Card.Title>Forkify</Card.Title>
             <Card.Text>
@@ -48,7 +52,9 @@ const webDevProjects = () => {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        <div className={Styles.ImgContainer}>
+          <Card.Img variant="top" src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        </div>
         <Card.Body>
           <Card.Title>Budgety</Card.Title>
           <Card.Text>
@@ -65,7 +71,9 @@ const webDevProjects = () => {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+        <div className={Styles.ImgContainer}>
+          <Card.Img variant="top" src="https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+        </div>
         <Card.Body>
           <Card.Title>Pig Game</Card.Title>
           <Card.Text>
