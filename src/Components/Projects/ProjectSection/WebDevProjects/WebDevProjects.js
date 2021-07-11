@@ -12,6 +12,27 @@ const webDevProjects = () => {
       <Card className={Styles.Card}>
         <div className={Styles.CardHeader}>
           <div className={Styles.ImgContainer}>
+            <Card.Img className={Styles.Img} variant="top" src="https://github.com/justpanthering/ais-india-flightsim-frontend/blob/main/assets/images/background.jpg?raw=true" />
+          </div>
+          <Card.Body>
+            <Card.Title>Airport Information System - India</Card.Title>
+            <Card.Text>
+              Web application to access information about various airports across India, using Next JS, Chakra UI, Primsma (postgres) and Next-Auth.
+            </Card.Text>
+          </Card.Body>
+        </div>
+        <Card.Footer>
+          <small className="text-muted">
+            <IconLinks
+              type="website"
+              playLink="https://ais-india-flightsim-frontend.vercel.app/"
+              sourceCodeLink="https://github.com/justpanthering/ais-india-flightsim-frontend" />
+          </small>
+        </Card.Footer>
+      </Card>
+      <Card className={Styles.Card}>
+        <div className={Styles.CardHeader}>
+          <div className={Styles.ImgContainer}>
             <Card.Img className={Styles.Img} variant="top" src="https://github.com/justpanthering/burger-builder/blob/master/src/assets/images/burger-logo.png?raw=true" />
           </div>
           <Card.Body>
