@@ -31,6 +31,14 @@ const about = () => {
               2017: Graduation in B.tech in ICT from Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT), Gandhinagar
           </li>
           </ul>
+        <h3>
+          Work Experience
+        </h3>
+          <ul>
+            <li>
+              2020 - Present: Frontend Intern at <a href="https://www.datapeace.in/" target="_blank" rel="noopener noreferrer">DataPeace AI Technologies Pvt Ltd.</a>
+            </li>
+          </ul>
         </div>
       </Container>
     </section>
