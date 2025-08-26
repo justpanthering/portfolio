@@ -9,7 +9,7 @@ const socialMediaIcons = (props) => {
       <li className={Styles.SocialIcon}>
         <a
           className={linkClasses}
-          href="https://www.instagram.com/an.kitkit/"
+          href="https://www.instagram.com/justpanthering/"
           target="_blank">
           <i
             className="fa fa-instagram"
